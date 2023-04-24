@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{21968421-5124-4C64-B775-9861BF49BD69}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Phase2</RootNamespace>
+    <AssemblyName>Phase2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GiamDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GiamDoc.Designer.cs">
+      <DependentUpon>GiamDoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NhanSu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhanSu.Designer.cs">
+      <DependentUpon>NhanSu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaiChinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TaiChinh.Designer.cs">
+      <DependentUpon>TaiChinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TruongDeAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TruongDeAn.Designer.cs">
+      <DependentUpon>TruongDeAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TruongPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TruongPhong.Designer.cs">
+      <DependentUpon>TruongPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GiamDoc_XemDSNhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\GiamDoc_XemDSNhanVien.Designer.cs">
+      <DependentUpon>GiamDoc_XemDSNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\NhanSu_EditNhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\NhanSu_EditNhanVien.Designer.cs">
+      <DependentUpon>NhanSu_EditNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\NhanSu_EditPhongBan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\NhanSu_EditPhongBan.Designer.cs">
+      <DependentUpon>NhanSu_EditPhongBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PhanCongEveryone.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\PhanCongEveryone.Designer.cs">
+      <DependentUpon>PhanCongEveryone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\QLTrucTiep_DSDeAn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\QLTrucTiep_DSDeAn.Designer.cs">
+      <DependentUpon>QLTrucTiep_DSDeAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\QLTrucTiep_DSPhongBan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\QLTrucTiep_DSPhongBan.Designer.cs">
+      <DependentUpon>QLTrucTiep_DSPhongBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\QLTrucTiep_Task.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\QLTrucTiep_Task.Designer.cs">
+      <DependentUpon>QLTrucTiep_Task.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\QLTrucTiep_TaskEmp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\QLTrucTiep_TaskEmp.Designer.cs">
+      <DependentUpon>QLTrucTiep_TaskEmp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\QLTrucTiep_ThongTinNV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\QLTrucTiep_ThongTinNV.Designer.cs">
+      <DependentUpon>QLTrucTiep_ThongTinNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SuaProfile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SuaProfile.Designer.cs">
+      <DependentUpon>SuaProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TaiChinh_DSNhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\TaiChinh_DSNhanVien.Designer.cs">
+      <DependentUpon>TaiChinh_DSNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TaiChinh_PhanCongEveryone.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\TaiChinh_PhanCongEveryone.Designer.cs">
+      <DependentUpon>TaiChinh_PhanCongEveryone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TruongDeAn_CapNhatDeAn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\TruongDeAn_CapNhatDeAn.Designer.cs">
+      <DependentUpon>TruongDeAn_CapNhatDeAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TruongPhong_DSNV_HieuChinh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\TruongPhong_DSNV_HieuChinh.Designer.cs">
+      <DependentUpon>TruongPhong_DSNV_HieuChinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\XemProfile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\XemProfile.Designer.cs">
+      <DependentUpon>XemProfile.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GiamDoc.resx">
+      <DependentUpon>GiamDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhanSu.resx">
+      <DependentUpon>NhanSu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TaiChinh.resx">
+      <DependentUpon>TaiChinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TruongDeAn.resx">
+      <DependentUpon>TruongDeAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TruongPhong.resx">
+      <DependentUpon>TruongPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\GiamDoc_XemDSNhanVien.resx">
+      <DependentUpon>GiamDoc_XemDSNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\NhanSu_EditNhanVien.resx">
+      <DependentUpon>NhanSu_EditNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\NhanSu_EditPhongBan.resx">
+      <DependentUpon>NhanSu_EditPhongBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\PhanCongEveryone.resx">
+      <DependentUpon>PhanCongEveryone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\QLTrucTiep_DSDeAn.resx">
+      <DependentUpon>QLTrucTiep_DSDeAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\QLTrucTiep_DSPhongBan.resx">
+      <DependentUpon>QLTrucTiep_DSPhongBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\QLTrucTiep_Task.resx">
+      <DependentUpon>QLTrucTiep_Task.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\QLTrucTiep_TaskEmp.resx">
+      <DependentUpon>QLTrucTiep_TaskEmp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\QLTrucTiep_ThongTinNV.resx">
+      <DependentUpon>QLTrucTiep_ThongTinNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SuaProfile.resx">
+      <DependentUpon>SuaProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\TaiChinh_DSNhanVien.resx">
+      <DependentUpon>TaiChinh_DSNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\TaiChinh_PhanCongEveryone.resx">
+      <DependentUpon>TaiChinh_PhanCongEveryone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\TruongDeAn_CapNhatDeAn.resx">
+      <DependentUpon>TruongDeAn_CapNhatDeAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\TruongPhong_DSNV_HieuChinh.resx">
+      <DependentUpon>TruongPhong_DSNV_HieuChinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\XemProfile.resx">
+      <DependentUpon>XemProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-page-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-task-completed-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-organization-chart-people-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-project-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-full-stop-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-staff-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-deathly-hallows-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-deathly-hallows-1001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-snitch-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-04-24 025920.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-04-24 0259201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGIN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-301.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password_login.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
