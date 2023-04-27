@@ -16,7 +16,7 @@ namespace Phase2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new GiamDoc());
+            Application.Run(new Login());
         }
     }
 }

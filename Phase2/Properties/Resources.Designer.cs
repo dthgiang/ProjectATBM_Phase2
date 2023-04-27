@@ -73,26 +73,6 @@ namespace Phase2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_deathly_hallows_100 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-deathly-hallows-100", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_deathly_hallows_1001 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-deathly-hallows-1001", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap icons8_full_stop_24 {
             get {
                 object obj = ResourceManager.GetObject("icons8-full-stop-24", resourceCulture);
@@ -126,16 +106,6 @@ namespace Phase2.Properties {
         internal static System.Drawing.Bitmap icons8_project_24 {
             get {
                 object obj = ResourceManager.GetObject("icons8-project-24", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_snitch_96 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-snitch-96", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -226,26 +196,6 @@ namespace Phase2.Properties {
         internal static System.Drawing.Bitmap password_login {
             get {
                 object obj = ResourceManager.GetObject("password_login", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2023_04_24_025920 {
-            get {
-                object obj = ResourceManager.GetObject("Screenshot 2023-04-24 025920", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2023_04_24_0259201 {
-            get {
-                object obj = ResourceManager.GetObject("Screenshot 2023-04-24 0259201", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

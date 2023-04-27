@@ -303,21 +303,6 @@
     <None Include="Resources\icons8-staff-24.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\icons8-deathly-hallows-100.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-deathly-hallows-1001.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-snitch-96.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Screenshot 2023-04-24 025920.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Screenshot 2023-04-24 0259201.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\LOGIN.png" />
   </ItemGroup>
   <ItemGroup>
